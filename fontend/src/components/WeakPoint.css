@@ -1,0 +1,18 @@
+.nav-tabs .nav-link {
+  color: black; /* Màu chữ mặc định là đen */
+}
+
+.nav-tabs .nav-link.active {
+  color: blue; /* Màu chữ của tab được chọn là xanh */
+  font-weight: bold; /* Tạo độ đậm cho tab được chọn */
+}
+
+.nav-tabs .nav-link:hover {
+  color: darkblue; /* Đổi màu chữ khi hover */
+}
+.nav-link {
+  width: 150px; /* Đặt chiều rộng cố định cho các nút */
+  text-align: center; /* Canh giữa nội dung */
+  padding: 15px; /* Tăng padding để nút to hơn */
+  font-size: 1.2rem; /* Tăng kích thước chữ */
+}

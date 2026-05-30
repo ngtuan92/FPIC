@@ -1,0 +1,206 @@
+{
+  "classes": [
+    {
+      "title": "BTN",
+      "shape": "bitmap",
+      "color": "#8F2323",
+      "geometry_config": {},
+      "id": 52228,
+      "hotkey": ""
+    },
+    {
+      "title": "C",
+      "shape": "bitmap",
+      "color": "#FFFF00",
+      "geometry_config": {},
+      "id": 52215,
+      "hotkey": ""
+    },
+    {
+      "title": "CR",
+      "shape": "bitmap",
+      "color": "#DCB9ED",
+      "geometry_config": {},
+      "id": 52226,
+      "hotkey": ""
+    },
+    {
+      "title": "CRA",
+      "shape": "bitmap",
+      "color": "#8F6A23",
+      "geometry_config": {},
+      "id": 52230,
+      "hotkey": ""
+    },
+    {
+      "title": "D",
+      "shape": "bitmap",
+      "color": "#6AFF00",
+      "geometry_config": {},
+      "id": 52221,
+      "hotkey": ""
+    },
+    {
+      "title": "F",
+      "shape": "bitmap",
+      "color": "#737373",
+      "geometry_config": {},
+      "id": 52233,
+      "hotkey": ""
+    },
+    {
+      "title": "FB",
+      "shape": "bitmap",
+      "color": "#23628F",
+      "geometry_config": {},
+      "id": 52229,
+      "hotkey": ""
+    },
+    {
+      "title": "IC",
+      "shape": "bitmap",
+      "color": "#B9D7ED",
+      "geometry_config": {},
+      "id": 52224,
+      "hotkey": ""
+    },
+    {
+      "title": "J",
+      "shape": "bitmap",
+      "color": "#FF7F00",
+      "geometry_config": {},
+      "id": 52218,
+      "hotkey": ""
+    },
+    {
+      "title": "JP",
+      "shape": "bitmap",
+      "color": "#FFFAC8",
+      "geometry_config": {},
+      "id": 52238,
+      "hotkey": ""
+    },
+    {
+      "title": "L",
+      "shape": "bitmap",
+      "color": "#BFFF00",
+      "geometry_config": {},
+      "id": 52219,
+      "hotkey": ""
+    },
+    {
+      "title": "LED",
+      "shape": "bitmap",
+      "color": "#F58230",
+      "geometry_config": {},
+      "id": 52235,
+      "hotkey": ""
+    },
+    {
+      "title": "M",
+      "shape": "bitmap",
+      "color": "#B9EDE0",
+      "geometry_config": {},
+      "id": 52227,
+      "hotkey": ""
+    },
+    {
+      "title": "P",
+      "shape": "bitmap",
+      "color": "#E7E9B9",
+      "geometry_config": {},
+      "id": 52225,
+      "hotkey": ""
+    },
+    {
+      "title": "Q",
+      "shape": "bitmap",
+      "color": "#AA00FF",
+      "geometry_config": {},
+      "id": 52217,
+      "hotkey": ""
+    },
+    {
+      "title": "QA",
+      "shape": "bitmap",
+      "color": "#AAFFC3",
+      "geometry_config": {},
+      "id": 52237,
+      "hotkey": ""
+    },
+    {
+      "title": "R",
+      "shape": "bitmap",
+      "color": "#FF0000",
+      "geometry_config": {},
+      "id": 52214,
+      "hotkey": ""
+    },
+    {
+      "title": "RA",
+      "shape": "bitmap",
+      "color": "#0095FF",
+      "geometry_config": {},
+      "id": 52220,
+      "hotkey": ""
+    },
+    {
+      "title": "RN",
+      "shape": "bitmap",
+      "color": "#0040FF",
+      "geometry_config": {},
+      "id": 52222,
+      "hotkey": ""
+    },
+    {
+      "title": "S",
+      "shape": "bitmap",
+      "color": "#DCBEFF",
+      "geometry_config": {},
+      "id": 52236,
+      "hotkey": ""
+    },
+    {
+      "title": "SW",
+      "shape": "bitmap",
+      "color": "#6B238F",
+      "geometry_config": {},
+      "id": 52231,
+      "hotkey": ""
+    },
+    {
+      "title": "T",
+      "shape": "bitmap",
+      "color": "#4F8F23",
+      "geometry_config": {},
+      "id": 52232,
+      "hotkey": ""
+    },
+    {
+      "title": "TP",
+      "shape": "bitmap",
+      "color": "#EDB9B9",
+      "geometry_config": {},
+      "id": 52223,
+      "hotkey": ""
+    },
+    {
+      "title": "U",
+      "shape": "bitmap",
+      "color": "#00EAFF",
+      "geometry_config": {},
+      "id": 52216,
+      "hotkey": ""
+    },
+    {
+      "title": "V",
+      "shape": "bitmap",
+      "color": "#CCCCCC",
+      "geometry_config": {},
+      "id": 52234,
+      "hotkey": ""
+    }
+  ],
+  "tags": [],
+  "projectType": "images"
+}

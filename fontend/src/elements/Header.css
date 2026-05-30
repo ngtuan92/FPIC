@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Matemasie&display=swap");
+
+
+
+
+
+
+
+.header-end {
+  display: flex;
+  align-items: center;
+}
+
+.account-menu-item {
+  line-height: 2;
+  position: relative;
+  text-decoration: none; /* Đảm bảo text không bị gạch dưới */
+}
+
+.account-menu-item::before {
+  content: "";
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -0.25rem;
+  left: 0;
+  transition: transform 0.4s, opacity 0.4s;
+  opacity: 0;
+}
+
+.account-menu-item:hover::before {
+  transform: translateY(-0.1rem);
+  opacity: 1;
+}
+
+.avatar-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  margin-left: 16px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  position: absolute; /* Thay đổi từ absolute sang fixed */
+  top: 58px; /* Điều chỉnh vị trí tùy theo nhu cầu */
+  right: 20px; /* Điều chỉnh khoảng cách từ cạnh phải */
+  background-color: rgba(0, 0, 0, 0.774); /* Nền mờ với độ trong suốt */
+  backdrop-filter: blur(1000px);
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.32);
+  margin-top: 8px;
+  border-radius: 4px;
+  overflow: visible;
+  z-index: 9999; /* Giữ z-index để đảm bảo menu nổi trên các phần tử khác */
+}
+
+.menu-item {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-item:hover {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.lik {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.menu-item-avatar {
+  width: 32px;
+  height: 32px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.menu-divider {
+  margin: 0;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.letter {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  cursor: default;
+  font-size: x-large;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "ELGR" 1, "ELSH" 2;
+  color: #fff;
+}
+
+.letter:hover {
+  transform: translateY(-5px);
+}
+
+.space {
+  width: 4px;
+}
+.account-menu {
+
+  backdrop-filter: blur(90px);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 5); 
+  padding: 10px 20px; 
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 120px;
+}
+/* From Uiverse.io by felipesntr */
+button {
+  font-size: 16px;
+  position: relative;
+  margin: auto;
+  padding: 1em 2.5em 1em 2.5em;
+  border: none;
+  background: #fff;
+  transition: all 0.1s linear;
+  box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button span {
+  color: #464646;
+}
+
+button .border {
+  position: absolute;
+  border: 0.15em solid #fff;
+  transition: all 0.3s 0.08s linear;
+  top: 50%;
+  left: 50%;
+  width: 9em;
+  height: 3em;
+  transform: translate(-50%, -50%);
+}
+
+button:hover .border {
+  display: block;
+  width: 9.9em;
+  height: 3.7em;
+}
+
+.full-rounded {
+  border-radius: 2em;
+}

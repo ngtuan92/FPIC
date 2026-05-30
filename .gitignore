@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production / Builds
+/fontend/build/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# IGNORE ALL IMAGES & DATASETS (FE & BE)
+# ==========================================
+
+# 1. Global image formats
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.jfif
+*.webp
+*.svg
+*.ico
+
+# 2. Backend data/image directories
+/backend/uploads/
+/backend/jtag/
+/backend/testpin/
+/backend/lpc/
+/backend/LPC/
+/backend/microchip/
+/backend/footprint/
+/backend/unusedPort/
+/backend/vias/
+/backend/SPI/
+/backend/spi/
+/backend/SMB/
+/backend/smb/
+/backend/src/img/
+/backend/src/ann/
+/backend/src/public/images/
+/backend/up/
+/backend/tp/
+
+# 3. Frontend public image & data directories
+/fontend/public/testpin/
+/fontend/public/unused_port/
+/fontend/public/vias/
+/fontend/public/images/
+/fontend/public/microchip/
+/fontend/public/TailieuPCB/
+/fontend/public/jtag/
+/fontend/public/LPC/
+/fontend/public/SPI/
+/fontend/public/SMB/
+/fontend/public/imgconst/

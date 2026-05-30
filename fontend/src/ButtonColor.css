@@ -1,0 +1,31 @@
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button-group button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: opacity 0.3s ease;
+}
+
+.button-group button span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+}
+
+.button-group button.faded {
+  opacity: 0.3;
+}

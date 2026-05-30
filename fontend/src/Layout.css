@@ -1,0 +1,12 @@
+.bg-custom {
+  background-color: #2c75dd;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.btn-custom {
+  background-color: rgb(255, 183, 0);
+}

@@ -1,0 +1,44 @@
+.zoomable-container {
+  width: 10000%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.tools {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.tools button {
+  margin-right: 8px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tools button:hover {
+  background-color: #0056b3;
+}
+
+.transform-wrapper {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://content.wepik.com/media/bg-remover/remove-bg-bg0.png");
+  overflow: hidden;
+  position: relative;
+  background-size: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ vùng */
+  background-position: center; /* Căn giữa hình ảnh nền */
+}
+
+.transform-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
